@@ -1,17 +1,53 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+
+const titulo = "Mi preoyecto web en Astro!!!!";
+
+const color = "azar";
+
+const hobbies = ['Programar', 'Gym','Escribir', 'Jugar videos juegos'];
+
+const isActive = false;
+
 ---
 
-<!doctype html>
-<html lang="es">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-  <body>
+<ul>
+{
+hobbies.map(hoby => <li> 
 
-    <h1> Bienvenidos a mi sitio web </h1>
-			</body>
-</html>
+    <h3>{hoby}</h3>
+    <button>Me gusta</button>
+
+  </li>)
+  }
+</ul>
+
+<h3 class="azar">
+  {isActive ?"El usuario esta activo!": "" }
+  {!isActive && "El usuario no esta activo!" }
+</h3>
+
+<!-- codigo css -->
+<style>
+
+body {
+  background: #fff;
+  color: #000 ;
+}
+
+.titulo {
+  color: red;
+}
+
+.azar {
+  color: blue;
+}
+
+</style>
+
+
+<!-- codigo js -->
+<script>
+
+  console.log("Hola mundo!!!");
+
+</script>
