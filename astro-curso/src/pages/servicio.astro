@@ -1,2 +1,34 @@
-<h1>Mis servicios</h1>
+<!-- importamos un archivo con javascript -->
+--- 
+ import Card from '../components/card.astro';
+---
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mis servicios</title>
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
+  </head>
+  <body>
+
+    <h1>Mis servicios</h1>
 <p>En esta sección encontrarás los servicios que ofrezco</p>
+
+<!-- usamos el componente card  -->
+<Card title="Hola mundo!!!" content='Esto es una prueba.' />
+<Card title="Programacion" content='Servicio de desarrolo web.' />
+<Card title="Diseño" content='Diseño de interfacez web' />
+<Card title="Asistencia profresíonal." content='Asistencia Profesional.' /> 
+<Card/>
+
+<style>
+  body {
+    background-color: #202020;
+    color: #fff;
+  }
+</style>
+
+  </body>
+</html>
