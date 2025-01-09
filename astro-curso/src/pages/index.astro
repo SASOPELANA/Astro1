@@ -1,53 +1,12 @@
 ---
-
-const titulo = "Mi preoyecto web en Astro!!!!";
-
-const color = "azar";
-
-const hobbies = ['Programar', 'Gym','Escribir', 'Jugar videos juegos'];
-
-const isActive = true;
-
+import Layout from "../components/Layout.astro";
 ---
 
-<ul>
-{
-hobbies.map(hoby => <li> 
+<Layout
+  pageTitle="Pagina inicial"
+  pageDescription="Hola, esta una pagina para ofrecer servicios de desarrolo web"
+>
+  <h1>Página inicial</h1>
 
-    <h3>{hoby}</h3>
-    <button>Me gusta</button>
-
-  </li>)
-  }
-</ul>
-
-<h3 class="azar">
-  {isActive ?"El usuario esta activo!": "" }
-  {!isActive && "El usuario no esta activo!" }
-</h3>
-
-<!-- codigo css -->
-<style>
-
-body {
-  background: #fff;
-  color: #000 ;
-}
-
-.titulo {
-  color: red;
-}
-
-.azar {
-  color: blue;
-}
-
-</style>
-
-
-<!-- codigo js -->
-<script>
-
-  console.log("Hola mundo!!!");
-
-</script>
+  <p>Bienvenido a mi blog</p>
+</Layout>
