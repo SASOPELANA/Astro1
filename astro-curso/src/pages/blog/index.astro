@@ -1,9 +1,9 @@
 ---
 import Layout from "../../components/Layout.astro";
 
-const post = await Astro.glob("./post/*.md");
+import bgImage from "../../images/tux.jpg";
 
-console.log();
+const post = await Astro.glob("./post/*.md");
 ---
 
 <Layout
@@ -11,6 +11,11 @@ console.log();
   pageDescription="Tutoriales de desarrolo y programacion."
 >
   <h1>Blog</h1>
+
+  <!-- cargar imagenes en astro  -->
+  <!-- Importamos las imagenes siempre con src={varImg.src} -->
+
+  <img width="200" src={bgImage.src} alt="Imagen nvim" />
 
   <!-- devolvemos las url recorrida por map, para mostrar por el frontend -->
   {
