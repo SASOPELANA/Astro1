@@ -1,4 +1,7 @@
 ---
+layout: ../../../components/Layout.astro
+
+title: Tutorial de Astro
 ---
 
 # Curso de Astro
