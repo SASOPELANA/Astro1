@@ -1,5 +1,6 @@
 ---
 import Layout from "../components/Layout.astro";
+import Button from "../components/ButtonSubcribe";
 ---
 
 <Layout
@@ -9,4 +10,7 @@ import Layout from "../components/Layout.astro";
   <h1>Página inicial</h1>
 
   <p>Bienvenido a mi blog</p>
+
+  <!-- cambiar el estado del boton con react -->
+  <Button client:load />
 </Layout>
