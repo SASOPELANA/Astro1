@@ -1,6 +1,14 @@
 ---
+// titulo para paginas
+interface Props {
+  title: string;
+}
+
 // Importamos archivos css
 import "../styles/Layout.css";
+
+// una variable contante para exportar el titulo
+const { title } = Astro.props;
 ---
 
 <!doctype html>
@@ -8,10 +16,11 @@ import "../styles/Layout.css";
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Astro Landing</title>
+    <!-- aplicamos la varaible para el titulo -->
+    <title>Astro Landing - {title}</title>
     <!-- <link href="css/style.css" rel="stylesheet"> -->
   </head>
   <body>
-    <slot />
+    <main class="mx-auto container"><slot /></main>
   </body>
 </html>
