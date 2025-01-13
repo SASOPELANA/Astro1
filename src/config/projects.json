@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "title": "Proyecto 1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatem rerum dolorum iure error blanditiis excepturi porro nam eaque laboriosam magni, rem suscipit id reiciendis labore saepe, quae facilis deserunt nesciunt? Tempore laudantium praesentium nulla totam deserunt provident, delectus eligendi dolorum nemo odit unde doloribus? Porro repudiandae tempora sint blanditiis.",
+
+      "image": "../../public/images/project.svg"
+    },
+    {
+      "title": "Proyecto 2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatem rerum dolorum iure error blanditiis excepturi porro nam eaque laboriosam magni, rem suscipit id reiciendis labore saepe, quae facilis deserunt nesciunt? Tempore laudantium praesentium nulla totam deserunt provident, delectus eligendi dolorum nemo odit unde doloribus? Porro repudiandae tempora sint blanditiis.",
+
+      "image": "../../public/images/fingerprint.svg"
+    },
+    {
+      "title": "Open source",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatem rerum dolorum iure error blanditiis excepturi porro nam eaque laboriosam magni, rem suscipit id reiciendis labore saepe, quae facilis deserunt nesciunt? Tempore laudantium praesentium nulla totam deserunt provident, delectus eligendi dolorum nemo odit unde doloribus? Porro repudiandae tempora sint blanditiis.",
+
+      "image": "../../public/images/open-source.svg"
+    },
+    {
+      "title": "Free",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatem rerum dolorum iure error blanditiis excepturi porro nam eaque laboriosam magni, rem suscipit id reiciendis labore saepe, quae facilis deserunt nesciunt? Tempore laudantium praesentium nulla totam deserunt provident, delectus eligendi dolorum nemo odit unde doloribus? Porro repudiandae tempora sint blanditiis.",
+
+      "image": "../../public/images/free.svg"
+    }
+  ]
+}
